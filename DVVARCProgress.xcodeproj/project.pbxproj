@@ -15,6 +15,9 @@
 		D9D3757F1C128269008C54FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D3757D1C128269008C54FF /* LaunchScreen.storyboard */; };
 		D9D3758A1C128269008C54FF /* DVVARCProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D375891C128269008C54FF /* DVVARCProgressTests.m */; };
 		D9D375951C128269008C54FF /* DVVARCProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D375941C128269008C54FF /* DVVARCProgressUITests.m */; };
+		D9D375A61C12829A008C54FF /* DVVProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D375A31C12829A008C54FF /* DVVProgressView.m */; };
+		D9D375A71C12829A008C54FF /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D375A51C12829A008C54FF /* UIColor+Extension.m */; };
+		E134DBFF1C16B48D00FEB6B1 /* DVVProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E134DBFE1C16B48D00FEB6B1 /* DVVProgressLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		D9D375901C128269008C54FF /* DVVARCProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVVARCProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D375941C128269008C54FF /* DVVARCProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVVARCProgressUITests.m; sourceTree = "<group>"; };
 		D9D375961C128269008C54FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9D375A21C12829A008C54FF /* DVVProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVProgressView.h; sourceTree = "<group>"; };
+		D9D375A31C12829A008C54FF /* DVVProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVProgressView.m; sourceTree = "<group>"; };
+		D9D375A41C12829A008C54FF /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		D9D375A51C12829A008C54FF /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		E134DBFD1C16B48D00FEB6B1 /* DVVProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVProgressLayer.h; sourceTree = "<group>"; };
+		E134DBFE1C16B48D00FEB6B1 /* DVVProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVProgressLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				D9D375731C128269008C54FF /* AppDelegate.m */,
 				D9D375751C128269008C54FF /* ViewController.h */,
 				D9D375761C128269008C54FF /* ViewController.m */,
+				D9D375A21C12829A008C54FF /* DVVProgressView.h */,
+				D9D375A31C12829A008C54FF /* DVVProgressView.m */,
+				E134DBFD1C16B48D00FEB6B1 /* DVVProgressLayer.h */,
+				E134DBFE1C16B48D00FEB6B1 /* DVVProgressLayer.m */,
+				D9D375A41C12829A008C54FF /* UIColor+Extension.h */,
+				D9D375A51C12829A008C54FF /* UIColor+Extension.m */,
 				D9D375781C128269008C54FF /* Main.storyboard */,
 				D9D3757B1C128269008C54FF /* Assets.xcassets */,
 				D9D3757D1C128269008C54FF /* LaunchScreen.storyboard */,
@@ -270,7 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D375A61C12829A008C54FF /* DVVProgressView.m in Sources */,
 				D9D375771C128269008C54FF /* ViewController.m in Sources */,
+				D9D375A71C12829A008C54FF /* UIColor+Extension.m in Sources */,
+				E134DBFF1C16B48D00FEB6B1 /* DVVProgressLayer.m in Sources */,
 				D9D375741C128269008C54FF /* AppDelegate.m in Sources */,
 				D9D375711C128269008C54FF /* main.m in Sources */,
 			);
@@ -496,6 +514,7 @@
 				D9D3759B1C128269008C54FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9D3759C1C128269008C54FF /* Build configuration list for PBXNativeTarget "DVVARCProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +523,7 @@
 				D9D3759E1C128269008C54FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9D3759F1C128269008C54FF /* Build configuration list for PBXNativeTarget "DVVARCProgressUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +532,7 @@
 				D9D375A11C128269008C54FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
